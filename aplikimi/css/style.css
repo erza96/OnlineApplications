@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Apliko Online</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <p># Avoid using <span class="text-danger">select</span> elements here as they cannot be fully styled in WebKit browsers.</p>
+        </div>
+    </div>
+	<div class="row">
+		<div class="col-xs-12">
+            <h2>Basic example</h2>
+            <form role="form">
+                <div class="form-group">
+                    <label for="exampleInput">Input text</label>
+                    <input type="text" class="form-control" id="exampleInput">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Textarea</label>
+                    <textarea class="form-control" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Select</label>
+                    <select class="form-control">
+                        <option>1</option>
+                        <option>2</option>
+                    </select>
+                </div>
+            </form>
+		</div>
+	</div>
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>Height sizing</h2>
+            <form role="form">
+                <div class="form-group">
+                    <input class="form-control input-lg" type="text" placeholder=".input-lg">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" placeholder="Default input">
+                </div>
+                <div class="form-group">
+                    <input class="form-control input-sm" type="text" placeholder=".input-sm">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="row">
+    	<div class="col-xs-12">
+            <h2>Input groups</h2>
+            <form role="form">
+                <div class="form-group">
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon1">@</span>
+                        <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+                    </div>
+                </div> 
+                <div class="form-group">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Recipient's username" aria-describedby="basic-addon2">
+                        <span class="input-group-addon" id="basic-addon2">@example.com</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-group">
+                        <span class="input-group-addon">$</span>
+                        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                        <span class="input-group-addon">.00</span>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>Button addons</h2>
+            <form role="form">
+                <div class="form-group">
+                    <div class="input-group">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button">Go!</button>
+                        </span>
+                        <input type="text" class="form-control" placeholder="Search for...">
+                    </div><!-- /input-group -->
+                </div>
+                <div class="form-group">
+                    <div class="input-group">
+                        <input type="text" class="form-control" aria-label="...">
+                        <div class="input-group-btn">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Action <span class="caret"></span></button>
+                            <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </div><!-- /btn-group -->
+                    </div><!-- /input-group -->
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+}
+
