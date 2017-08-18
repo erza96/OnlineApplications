@@ -286,7 +286,22 @@ table tr th, table tr td
   text-align: left;}
   
 table tr td
-{ 
+{
   background: none;
   color: #47433F;
   border-top: 1px solid #FFF;}
+
+
+  .btn {
+   
+    background-color: #e7e7e7; color: black;
+    border: none;
+    color: black;
+    padding: 11px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
